@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 49.132 s <<< FAILURE! - in TestSuite
+guestUserShouldBeAbleToAddNewComment(WebTest1.TestSuite)  Time elapsed: 11.258 s  <<< FAILURE!
+java.lang.AssertionError: News comment is successfully added. expected [new comment is successfully added.] but found [News comment is successfully added.]
+	at WebTest1.TestSuite.guestUserShouldBeAbleToAddNewComment(TestSuite.java:53)
+
+userShouldAbleToCompareTwoDifferentProductSuccessfully(WebTest1.TestSuite)  Time elapsed: 8.784 s  <<< FAILURE!
+java.lang.AssertionError: Compare products expected [compare products] but found [page not found]
+	at WebTest1.TestSuite.userShouldAbleToCompareTwoDifferentProductSuccessfully(TestSuite.java:31)
+
+userShouldAbleToRegisterSuccessfully(WebTest1.TestSuite)  Time elapsed: 5.909 s  <<< FAILURE!
+java.lang.AssertionError: Your registration completed expected [Your registration completed] but found [Registration not successful....]
+	at WebTest1.TestSuite.userShouldAbleToRegisterSuccessfully(TestSuite.java:23)
+
